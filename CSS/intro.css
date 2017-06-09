@@ -1,0 +1,66 @@
+
+body {
+  background-color: #FFFFFF;
+  background-image: url(/Images/intropose.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #000000;
+  display: block;
+}
+h1 {
+  position: fixed; /* or absolute */
+  top: 35%;
+  left: 32%;
+  margin-top: -50px;
+  margin-left: -110px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Sail', cursive;
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  transition: all 3.5s ease-in;
+}
+
+h2 {
+  position: fixed; /* or absolute */
+  top: 55%;
+  left: 45%;
+  margin-top: -50px;
+  margin-left: -100px;
+  color: #000000;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3 {
+  position: fixed; /* or absolute */
+  top: 70%;
+  left: 50%;
+  color: #ffffff;
+  text-align: center;
+  height: 2rem;
+}
+
+h2 a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  transform: background-color 1.5s ease-in;
+}
+
+h2 a hover {
+  color: burlywood;
+}
+
+img {
+  width: 100%;
+  justify-content: center;
+}
+
+footer {
+  font-family: 'Quicksand', sans-serif;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

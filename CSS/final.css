@@ -1,0 +1,213 @@
+body {
+  background-color: #BD364D;
+  background-image: url();
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000000;
+  display: block;
+}
+
+header {
+  background-color: #711937;
+  color: #030128;
+  width: 100%;
+  top: 0;
+  left: -0.2rem;
+  margin: 0;
+  padding: 0.5rem;
+  height: 8rem;
+  position: fixed;
+  z-index: 999;
+}
+
+
+/* border inputted in "p selector" will affect table/box effects */
+p {
+  font-family: 'Wire One', sans-serif;
+  font-size: 20px;
+  padding: 1em;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: 1.5s ease;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: #030128;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: line-through;
+  background-color: #B4D2F0;
+}
+
+p::first-letter {
+  font-size: 36px;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 48px;
+  color: #030128;
+  text-align: left;
+  z-index: 999;
+}
+
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 28px;
+  color: #030128;
+  text-align: left;
+  position: fixed;
+  top: 4rem;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  font-family: 'Wire One', sans-serif;
+  background-color: #420A2B;
+  align-content: center;
+  text-align: center;
+  height: 2rem;
+  top: 9rem;
+  left: -0.2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  color: #FFFFFF;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h5 {
+  text-align: center;
+  color: #FFFFFF;
+  font-variant: small-caps;
+}
+
+figure {
+  align-content: center;
+  margin: auto;
+}
+
+/* add border effects here for correct display
+section for main blurbs that expand the max-width*/
+section {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-family: 'Wire One', sans-serif;
+  margin-top: 13rem;
+  margin-bottom: -4rem;
+  clear: both;
+  padding-bottom: 4rem;
+}
+
+.top img {
+  padding-top: 1rem;
+  object-fit: cover;
+}
+
+.portfolio p {
+  background-color: #030128;
+  color: #F3DABF;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-family: 'Wire One', sans-serif;
+  margin-top: 11rem;
+  padding: 3rem;
+}
+
+/* article to label any LEFT MODULE, aside for RIGHT MODULE */
+article {
+  float: left;
+  position: relative;
+  width: 45%;
+  border: 1px solid #F3DABF;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 15rem;
+  background-color: #F3DABF;
+  align-content: center;
+  align-items: center;
+  font-family: 'Wire One', sans-serif;
+}
+
+article li {
+  font-size: 1.2rem;
+  margin-left: 13rem;
+}
+
+article img {
+  float: left;
+  padding: 0.75rem;
+}
+
+article p {
+  font-size: 1rem;
+  margin-top: -0.5rem;
+}
+
+article p a{
+  font-size: 1.2rem;
+  color: #420A2B;
+  font-weight: bold;
+}
+
+aside {
+  float: right;
+  width: 45%;
+  border: 1px solid #F3DABF;
+  padding: 0rem;
+  margin-left: 3rem;
+  margin: 0.5rem;
+  height: 17rem;
+  background-color: #F3DABF;
+  font-family: 'Poiret One', cursive;
+  align-items: center;
+  align-content: center;
+}
+
+aside a {
+  text-align: center;
+  display: inline-block;
+  padding: 1rem;
+  background-color: #F3DABF;
+  transition: background-color 2s linear;
+}
+
+aside a hover {
+  background-color: #B4D2F0;
+  width: 300px;
+}
+
+aside a visited {
+  background-color: #F3DABF;
+  color: black
+}
+
+/* clear:both keeps footer from nesting in between articles */
+footer {
+  clear: both;
+  width: 100%;
+  bottom: -2rem;
+  background-color: #711937;
+  color: #FFFFFF;
+  z-index: 999;
+  font-family: 'Poiret One', cursive;
+}
