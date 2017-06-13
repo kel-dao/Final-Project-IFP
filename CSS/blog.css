@@ -252,3 +252,10 @@ div .sidebar {
   background-color: black;
   color: white;
 }
+
+div .img {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+

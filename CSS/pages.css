@@ -185,19 +185,45 @@ p {
   text-align: center; 
   padding: 0.5rem;
 }
+
+#map {
+   width: 90%;
+   height: 300px;
+   align-content: center;
+   background-color: white;
+   border: 1px black solid;
+ }
+
+/* grid for classes page */
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
-.affiliates {
-  width: 150px;
-  align-items: center;
-  padding: 1rem;
-  margin: 0.5rem;
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
 }
+.col:first-child { margin-left: 0; }
 
-.teachers {
-  width: 400px;
-  align-items: center;
-  padding: 1rem;
-  margin: 0.5rem;
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>The Inspire Fitness Project | Classes</title>
-  <link href="/CSS/blog.css" rel="stylesheet">
+  <link href="/CSS/pages.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Prata|Raleway|Satisfy" rel="stylesheet">
   <script src="https://use.fontawesome.com/646c8a207a.js"></script>
 </head>
@@ -24,24 +24,32 @@
   
   
 <main>
-   <div>
-      <form>
-        <label for="sushi">Find some good Sushi</label>
+  <div class="section group">
+	<div class="col span_2_of_3">
+	 <img src="/Images/class1.jpg" alt="class1">
+      <img src="/Images/class2.jpg" alt="class2">
+      <img src="/Images/class3.jpg" alt="class3">
+	</div>
+	<div class="col span_1_of_3">
+	   <form>
+        <label for="sushi">Find yourself at a class!</label>
         <select id="sushi" name="sushi">
           <option value="default">Select one (at a time):</option>
-          <option value="Sushi Kashiba">Sushi Kashiba $$$$</option>
-          <option value="Shiros">Shiro's $$$</option>
-          <option value="Momiji">Momiji $$$ (HH)</option>
+          <option value="Pop Up Fit Class Jan 28th">Pop Up Fit Class Jan. 28th</option>
+          <option value="Sweat and Stretch Feb 5th">Sweat and Stretch Feb. 5th</option>
+          <option value="Tabata Soul March 12th">Tabata Soul Mar. 12th</option>
           <option value="Umi Sake House">Umi Sake House $$$ (HH)</option>
-          <option value="Mashiko">Mashiko $$$</option>
         </select>
       </form>
-    </div>
-  <div id="map"></div>
+      <div id="map"></div>
+	</div>
+</div>
+  
 </main>
   
 </body>  
 <script src="/Javascript/jquery321.js" type="text/javascript"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2NsWbFJwjfoOuHAbOXXZbSVY4pZPIAv4&callback=initMap" type="text/javascript"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlYrXB9TlpOqUJFLWRzQn1tO170stRnUw&callback=initMap"
+  type="text/javascript"></script>
 <script type="text/javascript" src="/Javascript/locations.js"></script>
 </html>
