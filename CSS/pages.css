@@ -119,6 +119,9 @@ img.about {
   padding-bottom: 2rem;
 }
 
+section a {
+  
+}
 
 /* clear:both keeps footer from nesting in between articles */
 footer {
@@ -181,14 +184,24 @@ footer a {
     color: #000000;
 }
 
-img {
-  width: 85%;
-}
-
 p {
   font-size: 16px;
   text-align: center; 
   padding: 0.5rem;
+}
+
+.picture {
+  width: 50%;
+  float: left;
+  clear: left;
+  display: block;
+  overflow: hidden;
+}
+
+section {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 #map {
@@ -198,6 +211,11 @@ p {
    background-color: white;
    border: 1px black solid;
  }
+
+.span_1_of_3 {
+  background-color: black;
+  color: white;
+}
 
 /* grid for classes page */
 /*  SECTIONS  */
