@@ -103,6 +103,8 @@ h4 {
   margin: 0 auto;
   border: 1px solid black;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 2em;
+  margin-bottom: 2rem;
 }
 
 img.about {
@@ -119,6 +121,17 @@ img.about {
   padding-bottom: 2rem;
 }
 
+.form {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  background-color: aliceblue;
+}
+
+
 /* clear:both keeps footer from nesting in between articles */
 footer {
   clear: both;
@@ -130,13 +143,8 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-size: 11px;
   text-align: center;
-}
-
-footer h4 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  color: #000000;
-  align-items: center;
+  padding: 1em;
+  margin: 1em;
 }
 
 footer a {
