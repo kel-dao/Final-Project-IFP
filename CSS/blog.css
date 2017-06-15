@@ -167,7 +167,7 @@ a {
 
 a:hover {
   color: burlywood;
-  background-color: #D1ECB9;
+  background-color: #000000;
 }
 
 .header-text {
@@ -227,7 +227,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-family: 'Prata', serif;
 }
 
@@ -235,6 +235,14 @@ h4 {
   text-align: left;
   font-size: 1.2rem;
   font-family: 'Raleway', sans-serif;
+  margin-left: 0.5rem;
+}
+
+h5 {
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 0.5rem;  
 }
 
 article {
@@ -248,9 +256,23 @@ article p {
   padding: 0.5em;
 }
 
-div .sidebar {
+.archive {
   background-color: black;
   color: white;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.gram {
+  background-color: black;
+  padding: 1em;
+}
+
+.tags {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  padding: 1em;
 }
 
 div .img {
@@ -259,3 +281,25 @@ div .img {
   border: 1px solid black;
 }
 
+section a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+  font-weight: thin;
+}
+
+#rudr_instafeed{
+  list-style:none  
+}
+#rudr_instafeed li{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:5px
+}
+#rudr_instafeed li img{
+  max-width:90%;
+  max-height:90%;
+}

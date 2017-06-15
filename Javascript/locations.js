@@ -13,8 +13,8 @@ var locations = [
 	},
 	{
 		"name": "Sweat and Stretch Feb 5th",
-		"lat": 47.6802168, 
-		"lng": -122.3305128,
+		"lat": 47.6802385, 
+		"lng": -122.3283617,
 		"zoom": 17
 	}, 
 	{
