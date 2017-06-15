@@ -9,16 +9,13 @@ body {
 }
 h1 {
   position: fixed; /* or absolute */
-  top: 35%;
-  left: 32%;
-  margin-top: -50px;
-  margin-left: -110px;
   color: #ffffff;
   text-align: center;
   font-family: 'Sail', cursive;
   font-size: 3.5rem;
   letter-spacing: 0.1rem;
   transition: all 3.5s ease-in;
+  padding-left: 1em;
 }
 
 h2 {
