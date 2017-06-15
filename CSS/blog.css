@@ -289,3 +289,22 @@ section a {
   color: white;
   font-weight: thin;
 }
+
+footer {
+  clear: both;
+  width: 100%;
+  bottom: -2rem;
+  background-color: black;
+  color: #ffffff;
+  z-index: 999;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+}
+
+footer a {
+  color: #ffffff;
+  padding: 1rem;
+}
